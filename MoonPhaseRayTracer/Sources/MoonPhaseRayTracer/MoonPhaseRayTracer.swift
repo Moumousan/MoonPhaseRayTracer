@@ -59,7 +59,7 @@ public struct MoonPhaseRayTracer {
         }
 
         public enum Antialiasing {
-            case none, x2, x4, x8
+            case none, x2, x4
 
             #if canImport(SceneKit)
             var scnMode: SCNAntialiasingMode {

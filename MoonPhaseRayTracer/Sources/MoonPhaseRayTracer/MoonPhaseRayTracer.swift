@@ -67,7 +67,6 @@ public struct MoonPhaseRayTracer {
                 case .none: return .none
                 case .x2:   return .multisampling2X
                 case .x4:   return .multisampling4X
-                case .x8:   return .multisampling8X
                 }
             }
             #endif
